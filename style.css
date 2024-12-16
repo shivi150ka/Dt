@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box ;
+   font-family: 'Times New Roman', Times, serif;
+}
+body{
+    background-image: url(https://media.istockphoto.com/id/1490711062/photo/generative-ai-humanoid-representing-artificial-intelligence-android-deep-learning-background.jpg?s=2048x2048&w=is&k=20&c=ke-KsCItsLJIqzcTNcYDTUsLywB3DBLc3NOmrFnE86M=);
+ object-fit: cover;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 100vh;
+ margin: 0;
+}
+.main{
+    height: 300px;
+    width: 500px;
+    background-color: white;
+    border-radius: 5%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+   position: absolute;
+   text-align: center;
+   
+}
+
+.main p{
+    margin-top: 2px;
+    margin-left: 5px;
+    font-weight: 700;
+    font-size: larger;
+    text-align: center;
+    
+}
+.main input{
+    display: block;
+    margin-left: 10px;
+    border: 2px  solid black;
+    width: 450px;
+    margin-top: 15px;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    font-size: larger;
+}
+.main button{
+    background-color: rgb(82, 7, 255);
+    color: white;
+    margin-top: 30px;
+    cursor: pointer;
+    
+    height: 50px;
+    width: 250px;
+    
+    font-weight: 600;
+    font-size: medium;
+    
+}
+#imgbox{
+    width: 200px;
+    border-radius: 5px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 1s;
+    padding: 50px; 
+    margin: 50px;
+    text-align: center;
+    justify-content: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+#imgbox img{
+    width: 100%;
+    padding: 50px; 
+    margin: 50px;
+    align-items: center;
+    justify-content: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: block;
+    margin:  0 auto;
+
+}
+#imgbox.show-img{
+    max-height: 300px;
+    margin: 10px auto;
+    border: 2px solid #d1d1d1;
+
+}
+#qrImage{
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    max-width: 100%;
+    height: auto;
+}
